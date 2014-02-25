@@ -8,7 +8,8 @@ void setup()
 
 void loop()
 {
-  // Check if there's light out.
+  // Check if there's light out. (ASSUMES HAVING LIGHT WARMS UP
+  // Check what's the inside temperature.
   // If there is, check to what temperature the system is set to.
   // if(temp < optimalTemp && !windowOpen)
     // open();
@@ -16,6 +17,7 @@ void loop()
   // if(temp > optimalTemp && windowOpen) {
     // close();
   //}
+  // if no light, then do the opposite.
 }
 
 // void close() {
